@@ -260,4 +260,4 @@ We provide [Scratch](https://scratch.mit.edu) free of charge, and want to keep i
 
 ## 使用说明
 * `npm run build`, //编译最新  访问 ./build/index.html 即可
-* `D:\www\scratch\scratch-gui\src\containers\library-item.jsx`,  // 添加一个国内资源 xiaoyaqian
+* `D:\www\scratch\scratch-gui\src\containers\library-item.jsx`,  // 添加一个国内资源 xiaoyaqian  。
