@@ -54,7 +54,8 @@ class Storage extends ScratchStorage {
         this.assetHost = assetHost;
     }
     getAssetGetConfig (asset) {
-        return `https://www.xiaoyaqian.cn/material/${asset.assetId}.${asset.dataFormat}`;
+        return `http://scratch.veecar.com/static/scratch/${asset.assetId}.${asset.dataFormat}`;
+        // return `https://www.xincent.cn/static/internalapi/asset/${asset.assetId}.${asset.dataFormat}`;
         // return `${this.assetHost}/internalapi/asset/${asset.assetId}.${asset.dataFormat}/get/`;
     }
     getAssetCreateConfig (asset) {

@@ -107,7 +107,7 @@ class LibraryItem extends React.PureComponent {
         const iconMd5 = this.curIconMd5();
         //一个国内可用的源 
         const iconURL = iconMd5 ?
-            `https://www.xiaoyaqian.cn/material/${iconMd5}` :
+            `http://scratch.veecar.com/static/scratch/${iconMd5}` :
             this.props.iconRawURL;
         // const iconURL = iconMd5 ?
         //     `https://cdn.assets.scratch.mit.edu/internalapi/asset/${iconMd5}/get/` :
